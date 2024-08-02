@@ -1,0 +1,67 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local Window = Mercury:Create{
+    Name = "Tuymaada",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://Tuymaada.ru/"
+}
+
+local Tab = Window:Tab{
+    Name = "Scripts",
+    Icon = "rbxassetid://8569322835" -- Icon Is Required
+}
+
+Tab:Button{
+    Name = "femboyscrimhub",
+    Description = "Need Key https://discord.gg/femboyscrimhub",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LisSploit/FemboysCrimHub/main/Criminality"))()
+    end
+}
+
+Tab:Button{
+    Name = "Universal Scripts",
+    Description = "Need Key https://discord.gg/femboyscrimhub",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LisSploit/lisfusuniversalscripts/main/bootyshake",true))()
+    end
+}
+
+Tab:Button{
+    Name = "Funky Friday",
+    Description = "Auto Play",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
+    end
+}
+
+Tab:Button{
+    Name = "MM2",
+    Description = "SnapSanix-GUI",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
+    end
+}
+
+Tab:Button{
+    Name = "MM2",
+    Description = "Good",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kcqn/mm2-gui/main/very%20op%20mm2"))()
+    end
+}
+
+Tab:Button{
+    Name = "MM2 *ONLY WAVE*",
+    Description = "Nexus- Auto Farm Silent Aim Kill All Free All Emotes",
+    Callback = function()
+    -- Put Your Script Here
+    loadstring(game:HttpGet("https://pastebin.com/raw/yL8ZgTGu"))()
+    end
+}
